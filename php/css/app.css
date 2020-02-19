@@ -1,0 +1,343 @@
+body {
+	background:url(triangle2.jpg) no-repeat center;
+    background-size: cover;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+@media (min-width: 1296px)
+{
+#navigation{transform: translateX(-5vw);}
+}
+
+.header{
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+	background-color: #000000;
+	text-decoration-color: white;
+	text-align: center;
+}
+
+.footer{
+	background-color: #000000;
+	position: flex;
+	bottom: 0;
+}
+
+#service a{
+	color: #FFFFFF;
+	font-family: 'El Messiri', sans-serif;
+	margin-bottom: 2px;
+    text-decoration:none;
+    margin-left: 15px;
+}
+
+a:hover{
+	font-size: 30px;
+}
+
+em {
+    font-style: italic;
+}
+
+#navigation{
+	margin: 0;
+	padding: 0 ;
+	list-style: none ;
+  }
+  
+  #navigation li {
+	display: inline-block;
+	width: 200px ;
+	border: 1px solid #600 ;
+	color: #fff ;
+	background: #c00 ;
+  }
+  
+  #navigation li a {
+	display: block ;
+	background: #c00 ;
+	color: #fff ;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	padding: 8px 0 ;
+	text-align: center ;
+	text-decoration: none;
+  }
+
+  #logo { 
+	float: left;
+	margin-top: 10px;
+	margin-left: 45px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width: 6%;
+}
+
+.prenom{
+	transform: translateX(-5vw);
+	text-align: center;
+font-weight: bold;
+font-family: 'Snell Roundhand', cursive;
+font-style: italic;
+margin-top: 10px;
+}
+
+.mainHome{
+	background-color: rgba(0, 0, 0, 0.726);
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.mainCV{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.mainContact{
+	background-color: rgba(247, 247, 247, 0.822);
+	margin-top: 175px;
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+.mainAvis{
+	margin-top: 175px;
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+.avis{
+	background-color: rgba(255, 255, 255, 0.822);
+	margin-left: 10px;
+}
+
+.VotreAvis{
+	margin-top: 0;
+	background-color: rgba(199, 199, 199, 0.726);
+}
+
+#boutton{
+	font-size: 25px; 
+		margin: auto;
+		float: end;
+		width: 200px;
+		height: 50px;
+		margin-bottom: 50px;
+		background-color: #02DD0E;
+		border-color: #02DD0E;
+	}
+	
+	.titreJeu{
+		margin-top: 10px;
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+		color: whitesmoke;
+		text-decoration: underline;
+		
+	}
+	
+	.explication{
+		text-align: center;
+		font-size: 22px;
+		font-weight: bold;
+		color: whitesmoke;
+	}
+	
+	
+	
+	.video{
+		float: end;
+		margin: auto;
+	}
+
+	.presentation{
+		margin: 50px;
+		margin-top: 175px;
+		background-color: rgb(0, 0, 0);
+	}
+	
+	.citation{
+		text-align: center;
+		color: #FFFFFF;
+	font-family: 'El Messiri', sans-serif;	
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	}
+	
+	.img{
+	margin: auto;
+	margin-bottom: 50px;
+	align-content: center;
+	width: 10%;
+	}
+	
+	#foto{
+		width: 100%;
+		border-radius: 50%;
+	}
+	.tab{
+	float: end;
+	margin: auto;
+	margin-bottom: 150px;
+	width: 80%;
+	color: #000000;
+	}
+	
+	#tablo{
+		width: 100%;
+	}
+	
+	.xp{
+		text-align: center;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+	.competence{
+		text-align: center;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+	.formation{
+		text-decoration: underline;
+	text-align: center;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	font-weight: bold;
+	
+	}
+	
+	.txtxp{
+		text-align: center;
+	font-family: 'El Messiri', sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+	
+	}
+	
+	.txtcompetence{
+		text-align: center;
+	font-family: 'El Messiri', sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+	}
+	
+	.txtformation{
+		text-align: center;
+	font-family: 'El Messiri', sans-serif;	
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.txt{
+		color: rgb(0, 0, 0);
+		margin: auto;
+		text-align: center;
+		font-size: 40px;
+		text-decoration: underline;
+	}
+	
+	.formulaire{
+		margin: 20px;
+		display: inline-block;
+	}
+	
+	.button {
+	  padding-left: 90px; 
+	}
+	
+	
+	
+	
+	
+	label {
+	  color: rgb(0, 0, 0);
+	  display: inline-block;
+	  width: 90px;
+	  text-align: right;
+	}
+	
+	input{
+		width: 15em;
+	}
+	textarea {
+	  vertical-align: top;
+	  height: 25em;
+	  width: 40em;
+	}
+	
+	form div + div {
+	  margin-top: 1em;
+	}
+
+	.errors {
+		color: red;
+	}
+
+	.back-presentation{
+		background-color: white;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.cvnath {
+		float: end;
+		margin: auto;
+		width: 75%;
+	}
+
+	.message {
+		border: 1px solid rgb(2, 2, 2);
+		padding: 10px;
+		margin: 20px;
+	}
+
+	.container {
+		background-color: #EEE;
+		max-width: 600px;
+		padding: 30px;
+		border: 1px solid #333;
+		margin: auto;
+	}
+
+	.titreAvis{
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	.imgLanguage{
+		margin-left: 25px;
+		margin-right: 25px;
+		background-color: rgb(255, 255, 255);
+		display: block;
+		text-align: center;
+	}
+
+	.language{
+		margin: 20px;
+		float: end;  
+	}
